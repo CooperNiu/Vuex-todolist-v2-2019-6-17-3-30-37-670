@@ -1,0 +1,94 @@
+body {
+  font: normal normal 13px/16px "Open Sans", sans-serif;
+  background: #ccc;  
+}
+
+#home {
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: white;
+  border-radius: 5px;
+}
+
+input {
+  padding: 4px 15px 4px 0;
+}
+
+#inputBox {
+  width: 70%;
+}
+
+#btnAdd {
+  display: inline-block;
+  background-color: #fc999b;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 15px;
+  margin: 0 5px;
+  outline: none;
+  border: none;
+}
+
+#btnAdd:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: #000;
+}
+
+ol li:nth-child(even) {
+  background: #f4ecec;
+}
+
+ol li div {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+ol li span {
+  display: block;
+  flex: 1 1 auto;
+}
+
+ol li span.checked {
+  color: #999;
+  text-decoration: line-through;
+}
+
+#btnFilterContainer {
+  text-align: center;
+}
+
+.btn-filter {
+  color: #fc999b;
+  margin: 3px 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  outline: none;
+  background: transparent;
+}
+
+.btn-filter:hover {
+  cursor: pointer;
+  border-color: rgba(175, 47, 47, 0.1);
+}
+
+.btn-filter.selected {
+  border-color: rgba(175, 47, 47, 0.1);
+}
+
+#btnFilterContainer {
+  text-align: center;
+}
